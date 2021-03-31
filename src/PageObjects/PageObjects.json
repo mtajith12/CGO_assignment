@@ -1,0 +1,10 @@
+{
+  "signIn": "a.login",
+  "emailInput": "#email_create",
+  "Submit": "#SubmitCreate",
+  "accountCreation": "#account-creation_form",
+  "CREATE AN ACCOUNT": "#noSlide > h1",
+  "YOUR PERSONAL INFORMATION": "#account-creation_form > div:nth-child(1) > h3",
+  "firstName": "#customer_firstname",
+  "lastName": "#customer_lastname"
+}
