@@ -28,7 +28,7 @@ $ yarn test:features
 
 # To Genarate report 
 ```sh
-$ yarn allure-reports
+$ yarn allure-report
 ```
 # location of the report 
-./reports
+./allure-report
