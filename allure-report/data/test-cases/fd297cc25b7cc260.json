@@ -1,0 +1,56 @@
+{
+  "uid" : "fd297cc25b7cc260",
+  "name" : "And I wait on element \"#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img\" for 5000ms to be displayed",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I wait on element \"#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img\" for 5000ms to be displayed",
+  "historyId" : "c00082fdbaf5ad5d92bcb16bd63bd318",
+  "time" : {
+    "start" : 1617193921225,
+    "stop" : 1617193921226,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I wait on element \"#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img\" for 5000ms to be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd297cc25b7cc260.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

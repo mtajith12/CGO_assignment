@@ -1,0 +1,66 @@
+{
+  "uid" : "178b757c4c5833b9",
+  "name" : "And I set \"AK General Company, Bangalore\" to the inputfield \"#alias\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I set \"AK General Company, Bangalore\" to the inputfield \"#alias\"",
+  "historyId" : "55cc3104fc5ff5cdb6705e177a6d5d72",
+  "time" : {
+    "start" : 1617194247297,
+    "stop" : 1617194247672,
+    "duration" : 375
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I set \"AK General Company, Bangalore\" to the inputfield \"#alias\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "25c79ae110fd3aa4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921222,
+        "stop" : 1617193921222,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "178b757c4c5833b9.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

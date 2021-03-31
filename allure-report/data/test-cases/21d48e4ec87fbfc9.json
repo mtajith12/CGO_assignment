@@ -1,0 +1,66 @@
+{
+  "uid" : "21d48e4ec87fbfc9",
+  "name" : "When I click on the button \"#center_column > form > p > button > span\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.When I click on the button \"#center_column > form > p > button > span\"",
+  "historyId" : "7d85310e084e336dc2cb943651fd4b55",
+  "time" : {
+    "start" : 1617194264163,
+    "stop" : 1617194267087,
+    "duration" : 2924
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on the button \"#center_column > form > p > button > span\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2e8f09b64190449b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921230,
+        "stop" : 1617193921230,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21d48e4ec87fbfc9.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

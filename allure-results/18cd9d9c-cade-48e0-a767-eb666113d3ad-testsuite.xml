@@ -1,0 +1,736 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617193887190' stop='1617193921237'>
+    <name>Register and Checkout product: Register and checkout product</name>
+    <title>Register and Checkout product: Register and checkout product</title>
+    <test-cases>
+        <test-case start='1617193887192' status='passed' stop='1617193887194'>
+            <name>Given I open the url "http://automationpractice.com/index.php"</name>
+            <title>Given I open the url "http://automationpractice.com/index.php"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193887194' status='passed' stop='1617193895103'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193895103' status='passed' stop='1617193900617'>
+            <name>When I click on the element "a.login"</name>
+            <title>When I click on the element "a.login"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193900617' status='passed' stop='1617193900890'>
+            <name>And I set "ajihmt2@gmail.com" to the inputfield "#email_create"</name>
+            <title>And I set "ajihmt2@gmail.com" to the inputfield "#email_create"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193900890' status='passed' stop='1617193901066'>
+            <name>When I click on the button "#SubmitCreate"</name>
+            <title>When I click on the button "#SubmitCreate"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193901067' status='broken' stop='1617193921205'>
+            <name>And I wait on element "#account-creation_form" for 5000ms to be displayed</name>
+            <title>And I wait on element "#account-creation_form" for 5000ms to be displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("#account-creation_form") still not displayed after 5000ms</message>
+                <stack-trace>Error: element ("#account-creation_form") still not displayed after 5000ms
+                    at C:\CGO_assignment\CGO_assignment\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at Element.runCommandWithHooks (C:\CGO_assignment\CGO_assignment\node_modules\@wdio\sync\build\wrapCommand.js:54:21)
+                    at Element.runCommandWithHooks (C:\CGO_assignment\CGO_assignment\node_modules\@wdio\sync\build\wrapCommand.js:48:22)
+                    at Element.wrapCommandFn (C:\CGO_assignment\CGO_assignment\node_modules\@wdio\sync\build\wrapCommand.js:25:40)
+                    at Element.elementErrorHandlerCallbackFn (C:\CGO_assignment\CGO_assignment\node_modules\webdriverio\build\middlewares.js:21:57)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Element.elementErrorHandlerCallback (C:\CGO_assignment\CGO_assignment\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Element.waitForDisplayed (C:\CGO_assignment\CGO_assignment\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:15:15)
+                    at Element.wrapCommandFn (C:\CGO_assignment\CGO_assignment\node_modules\@wdio\sync\build\wrapCommand.js:20:17)
+                    at _default (C:\CGO_assignment\CGO_assignment\src\support\action/waitFor.js:49:5)
+                    at C:\CGO_assignment\CGO_assignment\node_modules\@wdio\sync\build\runFnInFiberContext.js:16:27</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617193921206' status='pending' stop='1617193921209'>
+            <name>Then I expect that element "#noSlide > h1" contains the text "CREATE AN ACCOUNT"</name>
+            <title>Then I expect that element "#noSlide > h1" contains the text "CREATE AN ACCOUNT"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921209' status='pending' stop='1617193921210'>
+            <name>Then I expect that element "#account-creation_form > div:nth-child(1) > h3" contains the text "YOUR PERSONAL INFORMATION"</name>
+            <title>Then I expect that element "#account-creation_form > div:nth-child(1) > h3" contains the text "YOUR PERSONAL INFORMATION"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921210' status='pending' stop='1617193921211'>
+            <name>When I click on the button "#id_gender1"</name>
+            <title>When I click on the button "#id_gender1"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921211' status='pending' stop='1617193921211'>
+            <name>And I set "Ajith" to the inputfield "#customer_firstname"</name>
+            <title>And I set "Ajith" to the inputfield "#customer_firstname"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921212' status='pending' stop='1617193921212'>
+            <name>And I set "Kumar" to the inputfield "#customer_lastname"</name>
+            <title>And I set "Kumar" to the inputfield "#customer_lastname"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921212' status='pending' stop='1617193921213'>
+            <name>And I set "abcde12" to the inputfield "#passwd"</name>
+            <title>And I set "abcde12" to the inputfield "#passwd"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921213' status='pending' stop='1617193921213'>
+            <name>And I select the option with the value "1" for element "#days"</name>
+            <title>And I select the option with the value "1" for element "#days"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921214' status='pending' stop='1617193921214'>
+            <name>And I select the 1st option for element "#months"</name>
+            <title>And I select the 1st option for element "#months"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921214' status='pending' stop='1617193921214'>
+            <name>And I select the 3rd option for element "#years"</name>
+            <title>And I select the 3rd option for element "#years"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921215' status='pending' stop='1617193921215'>
+            <name>And I set "AK General" to the inputfield "#company"</name>
+            <title>And I set "AK General" to the inputfield "#company"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921215' status='pending' stop='1617193921215'>
+            <name>And I set "#123,1st Main" to the inputfield "#address1"</name>
+            <title>And I set "#123,1st Main" to the inputfield "#address1"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921216' status='pending' stop='1617193921216'>
+            <name>And I set "New complex apartment" to the inputfield "#address2"</name>
+            <title>And I set "New complex apartment" to the inputfield "#address2"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921216' status='pending' stop='1617193921218'>
+            <name>And I set "Bangalore" to the inputfield "#city"</name>
+            <title>And I set "Bangalore" to the inputfield "#city"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921218' status='pending' stop='1617193921219'>
+            <name>And I select the 1st option for element "#id_state"</name>
+            <title>And I select the 1st option for element "#id_state"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921219' status='pending' stop='1617193921221'>
+            <name>And I set "45564" to the inputfield "#postcode"</name>
+            <title>And I set "45564" to the inputfield "#postcode"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921221' status='pending' stop='1617193921221'>
+            <name>And I select the 1st option for element "#id_country"</name>
+            <title>And I select the 1st option for element "#id_country"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921221' status='pending' stop='1617193921222'>
+            <name>And I set "Near KB busstop" to the inputfield "#other"</name>
+            <title>And I set "Near KB busstop" to the inputfield "#other"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921222' status='pending' stop='1617193921222'>
+            <name>And I set "9900563356" to the inputfield "#phone_mobile"</name>
+            <title>And I set "9900563356" to the inputfield "#phone_mobile"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921222' status='pending' stop='1617193921222'>
+            <name>And I set "AK General Company, Bangalore" to the inputfield "#alias"</name>
+            <title>And I set "AK General Company, Bangalore" to the inputfield "#alias"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921223' status='pending' stop='1617193921223'>
+            <name>And I click on the button "#submitAccount"</name>
+            <title>And I click on the button "#submitAccount"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921223' status='pending' stop='1617193921223'>
+            <name>And I wait on element "#center_column > h1" for 5000ms to be displayed</name>
+            <title>And I wait on element "#center_column > h1" for 5000ms to be displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921223' status='pending' stop='1617193921223'>
+            <name>Then I expect that element "#center_column > h1" contains the text "MY ACCOUNT"</name>
+            <title>Then I expect that element "#center_column > h1" contains the text "MY ACCOUNT"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921224' status='pending' stop='1617193921224'>
+            <name>Then I expect that element "#header > div.nav > div > div > nav > div:nth-child(1) > a > span" contains the text "Ajith Kumar"</name>
+            <title>Then I expect that element "#header > div.nav > div > div > nav > div:nth-child(1) > a > span" contains the text "Ajith Kumar"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921224' status='pending' stop='1617193921225'>
+            <name>When I click on the button "#block_top_menu > ul > li:nth-child(1) > a"</name>
+            <title>When I click on the button "#block_top_menu > ul > li:nth-child(1) > a"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921225' status='pending' stop='1617193921226'>
+            <name>And I wait on element "#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img" for 5000ms to be displayed</name>
+            <title>And I wait on element "#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img" for 5000ms to be displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921226' status='pending' stop='1617193921226'>
+            <name>And I click on the element "#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img"</name>
+            <title>And I click on the element "#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921226' status='pending' stop='1617193921226'>
+            <name>When I click on the button "#add_to_cart"</name>
+            <title>When I click on the button "#add_to_cart"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921227' status='pending' stop='1617193921227'>
+            <name>Then I expect that element "div.layer_cart_product" contains the text "Product successfully added to your shopping cart"</name>
+            <title>Then I expect that element "div.layer_cart_product" contains the text "Product successfully added to your shopping cart"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921227' status='pending' stop='1617193921227'>
+            <name>Then I expect that element "//h1[@itemprop='name']" contains the text "Faded Short Sleeve T-shirts"</name>
+            <title>Then I expect that element "//h1[@itemprop='name']" contains the text "Faded Short Sleeve T-shirts"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921227' status='pending' stop='1617193921228'>
+            <name>And I expect that element "#add_to_cart" contains the text "Add to cart"</name>
+            <title>And I expect that element "#add_to_cart" contains the text "Add to cart"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921228' status='pending' stop='1617193921228'>
+            <name>When I click on the button "#layer_cart > div.clearfix  div.button-container > a"</name>
+            <title>When I click on the button "#layer_cart > div.clearfix  div.button-container > a"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921228' status='pending' stop='1617193921229'>
+            <name>Then I expect that element "#order_step > li.step_current.first > span" contains the text " Summary"</name>
+            <title>Then I expect that element "#order_step > li.step_current.first > span" contains the text " Summary"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921229' status='pending' stop='1617193921229'>
+            <name>Then I expect that element "[class*='cart_description'] a" contains the text "Faded Short Sleeve T-shirts"</name>
+            <title>Then I expect that element "[class*='cart_description'] a" contains the text "Faded Short Sleeve T-shirts"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921229' status='pending' stop='1617193921229'>
+            <name>When I click on the button "#center_column > p.cart_navigation.clearfix > .button-medium"</name>
+            <title>When I click on the button "#center_column > p.cart_navigation.clearfix > .button-medium"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921229' status='pending' stop='1617193921230'>
+            <name>Then I expect that element "#address_delivery > li.address_title > h3" contains the text "YOUR DELIVERY ADDRESS"</name>
+            <title>Then I expect that element "#address_delivery > li.address_title > h3" contains the text "YOUR DELIVERY ADDRESS"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921230' status='pending' stop='1617193921230'>
+            <name>When I click on the button "#center_column > form > p > button > span"</name>
+            <title>When I click on the button "#center_column > form > p > button > span"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921230' status='pending' stop='1617193921230'>
+            <name>Then I expect that element "#order_step > li.step_current.four > span" contains the text "04. Shipping"</name>
+            <title>Then I expect that element "#order_step > li.step_current.four > span" contains the text "04. Shipping"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921230' status='pending' stop='1617193921231'>
+            <name>When I click on the button "#form > p > button > span"</name>
+            <title>When I click on the button "#form > p > button > span"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921231' status='pending' stop='1617193921233'>
+            <name>Then I expect that element "#form > div > p.carrier_title" contains the text "Terms of service"</name>
+            <title>Then I expect that element "#form > div > p.carrier_title" contains the text "Terms of service"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921233' status='pending' stop='1617193921233'>
+            <name>When I click on the element "#cgv"</name>
+            <title>When I click on the element "#cgv"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921233' status='pending' stop='1617193921234'>
+            <name>Then I expect that element "#form > div > p.checkbox > label" contains the text "I agree to the terms of service and will adhere to them unconditionally. (Read the Terms of Service)"</name>
+            <title>Then I expect that element "#form > div > p.checkbox > label" contains the text "I agree to the terms of service and will adhere to them unconditionally. (Read the Terms of Service)"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921234' status='pending' stop='1617193921234'>
+            <name>Then I expect that element "#product_1_1_0_472848 > td.cart_description > p > a" contains the text "Faded Short Sleeve T-shirts"</name>
+            <title>Then I expect that element "#product_1_1_0_472848 > td.cart_description > p > a" contains the text "Faded Short Sleeve T-shirts"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921234' status='pending' stop='1617193921234'>
+            <name>Then I expect that element "#order_step > li.step_current.first > span" contains the text " Summary"</name>
+            <title>Then I expect that element "#order_step > li.step_current.first > span" contains the text " Summary"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921235' status='pending' stop='1617193921235'>
+            <name>Then I expect that element "#total_price" contains the text "$18.51"</name>
+            <title>Then I expect that element "#total_price" contains the text "$18.51"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617193921236' status='passed' stop='1617193921236'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

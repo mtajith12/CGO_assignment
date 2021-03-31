@@ -1,0 +1,66 @@
+{
+  "uid" : "71a0c46f376cdbe6",
+  "name" : "And I select the 1st option for element \"#id_state\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I select the 1st option for element \"#id_state\"",
+  "historyId" : "b6878f17546deafbcbd5339b7cd8d3e3",
+  "time" : {
+    "start" : 1617194246568,
+    "stop" : 1617194246658,
+    "duration" : 90
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I select the 1st option for element \"#id_state\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "10d8fd079b16faa8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921218,
+        "stop" : 1617193921219,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71a0c46f376cdbe6.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

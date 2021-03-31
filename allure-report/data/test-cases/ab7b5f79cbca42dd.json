@@ -1,0 +1,56 @@
+{
+  "uid" : "ab7b5f79cbca42dd",
+  "name" : "And I set \"#123,1st Main\" to the inputfield \"#address1\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I set \"#123,1st Main\" to the inputfield \"#address1\"",
+  "historyId" : "cca4433f6e743d5165610b33eaccc148",
+  "time" : {
+    "start" : 1617193921215,
+    "stop" : 1617193921215,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I set \"#123,1st Main\" to the inputfield \"#address1\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab7b5f79cbca42dd.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

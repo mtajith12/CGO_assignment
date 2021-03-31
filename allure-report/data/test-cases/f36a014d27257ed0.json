@@ -1,0 +1,56 @@
+{
+  "uid" : "f36a014d27257ed0",
+  "name" : "Then I expect that element \"#center_column > h1\" contains the text \"MY ACCOUNT\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.Then I expect that element \"#center_column > h1\" contains the text \"MY ACCOUNT\"",
+  "historyId" : "e8ff621aee0890478585b252715fc826",
+  "time" : {
+    "start" : 1617193921223,
+    "stop" : 1617193921223,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that element \"#center_column > h1\" contains the text \"MY ACCOUNT\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f36a014d27257ed0.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

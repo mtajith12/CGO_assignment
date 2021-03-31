@@ -1,0 +1,66 @@
+{
+  "uid" : "5f256abdc3e0e3f6",
+  "name" : "Given I open the url \"http://automationpractice.com/index.php\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.Given I open the url \"http://automationpractice.com/index.php\"",
+  "historyId" : "848958f973f1b8a0f9aea0e0bfd36ae1",
+  "time" : {
+    "start" : 1617194231404,
+    "stop" : 1617194231406,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the url \"http://automationpractice.com/index.php\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9158757bd3e0c9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617193887192,
+        "stop" : 1617193887194,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f256abdc3e0e3f6.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

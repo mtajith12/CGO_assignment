@@ -1,9 +1,9 @@
 {
-  "author": "Ajithr>",
-   "name": "automation-assessment-bdd-wdio",
+  "author": "Ajith",
+  "name": "automation-assessment-bdd-wdio",
   "version": "1.0.0",
   "description": "Project to run WebdriverIO tests with Cucumber",
-   "contributors": [],
+  "contributors": [],
   "repository": {},
   "bugs": {},
   "keywords": [
@@ -11,18 +11,18 @@
     "webdriverio",
     "cucumber",
     "test",
-     "selenium"
+    "selenium"
   ],
   "scripts": {
-    "clean": "read -p \"Are you sure you want to clean the project? [y/n] \" REPLY; if [[ $REPLY =~ ^[Yy]$ ]]; then rm -R .git .github demo-app test .codeclimate.yml .travis.yml jest.json wdio.BUILD.conf.js src/features/**; fi",
     "local-webserver": "forever start -s ./node_modules/.bin/http-server ./demo-app -s",
-    "allure-reports": "node_modules/.bin/allure generate .reports/allure/allure-results/ -o ./reports/allure/allure-report/ --clean",
     "test:lint": "eslint 'src/**/*.js' 'test/**/*.js!(setup.js)'",
-    "test:unit": "jest --config=jest.json --detectOpenHandles",
     "test:features": "npm run local-webserver && wdio wdio.conf.js",
-    "test:report": "npm run test:features && wdio run allure-reports",
-    "test:features_bk": "npm run local-webserver & (wdio wdio.BUILD.conf.js; wdio_ret=$?; forever stopall; exit $wdio_ret)"
+    "test:report": "npm run test:features && allure",
+    "allure-report": "allure generate allure-results --clean && allure open",
+    "report:history": "mkdir -p allure-report/history allure-results/history && cp -a allure-report/history allure-results/",
+    "allure": "allure serve allure-results && cp -a allure-report/history allure-results/"
   },
+
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/plugin-proposal-export-default-from": "^7.5.2",
@@ -42,8 +42,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
-    "@wdio/allure-reporter": "^6.11.0",
-    "allure-commandline": "^2.13.8",
+    "@wdio/allure-reporter": "^6.4.7",
+    "allure-commandline": "^2.13.0",
     "babel-jest": "^24.8.0",
     "chromedriver": "^76.0.0",
     "eslint": "^6.0.0",

@@ -1,0 +1,66 @@
+{
+  "uid" : "4071213d0f2b6e7",
+  "name" : "And I set \"45564\" to the inputfield \"#postcode\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I set \"45564\" to the inputfield \"#postcode\"",
+  "historyId" : "7073bc419189e671c8f4401415c06d31",
+  "time" : {
+    "start" : 1617194246659,
+    "stop" : 1617194246817,
+    "duration" : 158
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I set \"45564\" to the inputfield \"#postcode\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8c5c31ab582105a9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921219,
+        "stop" : 1617193921221,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4071213d0f2b6e7.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

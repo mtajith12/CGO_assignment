@@ -1,0 +1,67 @@
+{
+  "uid" : "d45e0b9ef67b924f",
+  "name" : "And I wait on element \"#account-creation_form\" for 5000ms to be displayed",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I wait on element \"#account-creation_form\" for 5000ms to be displayed",
+  "historyId" : "470bdb81bef984b4272e84aadec728fb",
+  "time" : {
+    "start" : 1617194242284,
+    "stop" : 1617194244358,
+    "duration" : 2074
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I wait on element \"#account-creation_form\" for 5000ms to be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "529481ec84296770",
+      "status" : "broken",
+      "statusDetails" : "element (\"#account-creation_form\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1617193901067,
+        "stop" : 1617193921205,
+        "duration" : 20138
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d45e0b9ef67b924f.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

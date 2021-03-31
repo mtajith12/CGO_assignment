@@ -1,0 +1,56 @@
+{
+  "uid" : "769ac6ca88d67738",
+  "name" : "Then I expect that element \"#noSlide > h1\" contains the text \"CREATE AN ACCOUNT\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.Then I expect that element \"#noSlide > h1\" contains the text \"CREATE AN ACCOUNT\"",
+  "historyId" : "cc6f0114946d1748a674e4feb898e2e3",
+  "time" : {
+    "start" : 1617193921206,
+    "stop" : 1617193921209,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that element \"#noSlide > h1\" contains the text \"CREATE AN ACCOUNT\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "769ac6ca88d67738.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

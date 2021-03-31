@@ -1,0 +1,72 @@
+{
+  "uid" : "5a2cbf95d73e6515",
+  "name" : "When I click on the element \"#cgv\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.When I click on the element \"#cgv\"",
+  "historyId" : "c3262a99ed06a8cf25fd9caf3cac54f0",
+  "time" : {
+    "start" : 1617194267501,
+    "stop" : 1617194267693,
+    "duration" : 192
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Element <input type=\"checkbox\" name=\"cgv\" id=\"cgv\" value=\"1\"> is not clickable at point (64, 467). Other element would receive the click: <div class=\"fancybox-overlay fancybox-overlay-fixed\" style=\"display: block; width: auto; height: auto;\">...</div>\n                  (Session info: chrome=89.0.4389.114)\n                  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64)",
+  "statusTrace" : "Error: unknown error: Element <input type=\"checkbox\" name=\"cgv\" id=\"cgv\" value=\"1\"> is not clickable at point (64, 467). Other element would receive the click: <div class=\"fancybox-overlay fancybox-overlay-fixed\" style=\"display: block; width: auto; height: auto;\">...</div>\n                  (Session info: chrome=89.0.4389.114)\n                  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64)\n                    at getErrorFromResponseBody (C:\\CGO_assignment\\CGO_assignment\\node_modules\\webdriver\\build\\utils.js:215:10)\n                    at Request._callback (C:\\CGO_assignment\\CGO_assignment\\node_modules\\webdriver\\build\\request.js:103:64)\n                    at Request.self.callback (C:\\CGO_assignment\\CGO_assignment\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\CGO_assignment\\CGO_assignment\\node_modules\\request\\request.js:1161:10)\n                    at IncomingMessage.<anonymous> (C:\\CGO_assignment\\CGO_assignment\\node_modules\\request\\request.js:1083:12)\n                    at endReadableNT (_stream_readable.js:1187:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n                    at Element.runCommandWithHooks (C:\\CGO_assignment\\CGO_assignment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:48:22)\n                    at Element.wrapCommandFn (C:\\CGO_assignment\\CGO_assignment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:25:40)\n                    at Element.elementErrorHandlerCallback (C:\\CGO_assignment\\CGO_assignment\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at World._default (C:\\CGO_assignment\\CGO_assignment\\src\\support\\action/clickElement.js:24:5)\n                    at C:\\CGO_assignment\\CGO_assignment\\node_modules\\@wdio\\sync\\build\\runFnInFiberContext.js:16:27",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on the element \"#cgv\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fb846ae7d6b75341",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921233,
+        "stop" : 1617193921233,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5a2cbf95d73e6515.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "34cbd225219b91bf",
+  "name" : "Then I expect that element \"#account-creation_form > div:nth-child(1) > h3\" contains the text \"YOUR PERSONAL INFORMATION\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.Then I expect that element \"#account-creation_form > div:nth-child(1) > h3\" contains the text \"YOUR PERSONAL INFORMATION\"",
+  "historyId" : "7374c9e0efdf2c781dfd00eca5b8ec42",
+  "time" : {
+    "start" : 1617193921209,
+    "stop" : 1617193921210,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that element \"#account-creation_form > div:nth-child(1) > h3\" contains the text \"YOUR PERSONAL INFORMATION\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34cbd225219b91bf.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

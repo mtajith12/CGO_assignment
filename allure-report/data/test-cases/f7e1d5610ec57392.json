@@ -1,0 +1,66 @@
+{
+  "uid" : "f7e1d5610ec57392",
+  "name" : "When I click on the button \"#layer_cart > div.clearfix  div.button-container > a\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.When I click on the button \"#layer_cart > div.clearfix  div.button-container > a\"",
+  "historyId" : "870d65157ad137c16d8a10bbf5c5abca",
+  "time" : {
+    "start" : 1617194258623,
+    "stop" : 1617194261698,
+    "duration" : 3075
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on the button \"#layer_cart > div.clearfix  div.button-container > a\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6bfbb6ed03ea1fac",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921228,
+        "stop" : 1617193921228,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7e1d5610ec57392.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

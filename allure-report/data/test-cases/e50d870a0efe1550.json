@@ -1,0 +1,82 @@
+{
+  "uid" : "e50d870a0efe1550",
+  "name" : "Hook",
+  "fullName" : "Register and Checkout product: Register and checkout product.Hook",
+  "historyId" : "e4f2c02f11f38f80f398b2ae536145b0",
+  "time" : {
+    "start" : 1617194267696,
+    "stop" : 1617194267698,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "19b17b3d3bd6473a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617194231407,
+        "stop" : 1617194238224,
+        "duration" : 6817
+      }
+    }, {
+      "uid" : "7470049966ea5601",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617193921236,
+        "stop" : 1617193921236,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f06fb5ca8b5ca54b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617193887194,
+        "stop" : 1617193895103,
+        "duration" : 7909
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e50d870a0efe1550.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

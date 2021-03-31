@@ -1,0 +1,501 @@
+[ {
+  "uid" : "13237765d8f6c014",
+  "name" : "And I set \"New complex apartment\" to the inputfield \"#address2\"",
+  "time" : {
+    "start" : 1617194246123,
+    "stop" : 1617194246379,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f256abdc3e0e3f6",
+  "name" : "Given I open the url \"http://automationpractice.com/index.php\"",
+  "time" : {
+    "start" : 1617194231404,
+    "stop" : 1617194231406,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11b9cf5365ce1d2c",
+  "name" : "And I set \"9900563356\" to the inputfield \"#phone_mobile\"",
+  "time" : {
+    "start" : 1617194247063,
+    "stop" : 1617194247297,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec302d980ad88e97",
+  "name" : "And I set \"Ajith\" to the inputfield \"#customer_firstname\"",
+  "time" : {
+    "start" : 1617194244690,
+    "stop" : 1617194244975,
+    "duration" : 285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3c903dfc8feb703",
+  "name" : "Then I expect that element \"#form > div > p.carrier_title\" contains the text \"Terms of service\"",
+  "time" : {
+    "start" : 1617194267404,
+    "stop" : 1617194267501,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "178b757c4c5833b9",
+  "name" : "And I set \"AK General Company, Bangalore\" to the inputfield \"#alias\"",
+  "time" : {
+    "start" : 1617194247297,
+    "stop" : 1617194247672,
+    "duration" : 375
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d5dd9d40b372598",
+  "name" : "When I click on the button \"#block_top_menu > ul > li:nth-child(1) > a\"",
+  "time" : {
+    "start" : 1617194250333,
+    "stop" : 1617194254170,
+    "duration" : 3837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d45e0b9ef67b924f",
+  "name" : "And I wait on element \"#account-creation_form\" for 5000ms to be displayed",
+  "time" : {
+    "start" : 1617194242284,
+    "stop" : 1617194244358,
+    "duration" : 2074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c4fe18b8a33ddb",
+  "name" : "And I select the option with the value \"1\" for element \"#days\"",
+  "time" : {
+    "start" : 1617194245370,
+    "stop" : 1617194245483,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88172eb2e48bb869",
+  "name" : "When I click on the button \"#SubmitCreate\"",
+  "time" : {
+    "start" : 1617194242072,
+    "stop" : 1617194242284,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "954526495c96ef3d",
+  "name" : "Then I expect that element \"#center_column > h1\" contains the text \"MY ACCOUNT\"",
+  "time" : {
+    "start" : 1617194250184,
+    "stop" : 1617194250260,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "daae4a26e69f8141",
+  "name" : "When I click on the button \"#id_gender1\"",
+  "time" : {
+    "start" : 1617194244574,
+    "stop" : 1617194244690,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71a0c46f376cdbe6",
+  "name" : "And I select the 1st option for element \"#id_state\"",
+  "time" : {
+    "start" : 1617194246568,
+    "stop" : 1617194246658,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb636bce6fee9020",
+  "name" : "And I set \"AK General\" to the inputfield \"#company\"",
+  "time" : {
+    "start" : 1617194245669,
+    "stop" : 1617194245906,
+    "duration" : 237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85b66a157f2187d",
+  "name" : "And I wait on element \"#center_column > h1\" for 5000ms to be displayed",
+  "time" : {
+    "start" : 1617194250095,
+    "stop" : 1617194250184,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cd8f4ccc1bf1341",
+  "name" : "Then I expect that element \"div.layer_cart_product\" contains the text \"Product successfully added to your shopping cart\"",
+  "time" : {
+    "start" : 1617194257322,
+    "stop" : 1617194258460,
+    "duration" : 1138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac313d749b7b1556",
+  "name" : "And I expect that element \"#add_to_cart\" contains the text \"Add to cart\"",
+  "time" : {
+    "start" : 1617194258558,
+    "stop" : 1617194258622,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed459dc5be10e1f7",
+  "name" : "Then I expect that element \"#order_step > li.step_current.four > span\" contains the text \"04. Shipping\"",
+  "time" : {
+    "start" : 1617194267087,
+    "stop" : 1617194267165,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7ed677b2fb3b74",
+  "name" : "And I set \"ajihmt2@gmail.com\" to the inputfield \"#email_create\"",
+  "time" : {
+    "start" : 1617193900617,
+    "stop" : 1617193900890,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3219e3db7097e3a",
+  "name" : "Then I expect that element \"#form > div > p.checkbox > label\" contains the text \"I agree to the terms of service and will adhere to them unconditionally. (Read the Terms of Service)\"",
+  "time" : {
+    "start" : 1617194267693,
+    "stop" : 1617194267694,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1ae41c8e0fb6b470",
+  "name" : "When I click on the button \"#add_to_cart\"",
+  "time" : {
+    "start" : 1617194257141,
+    "stop" : 1617194257322,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c4f051de489b19d",
+  "name" : "And I click on the element \"#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img\"",
+  "time" : {
+    "start" : 1617194254208,
+    "stop" : 1617194257141,
+    "duration" : 2933
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dee31a4c599542b4",
+  "name" : "And I set \"Near KB busstop\" to the inputfield \"#other\"",
+  "time" : {
+    "start" : 1617194246897,
+    "stop" : 1617194247063,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50f26359ee61664d",
+  "name" : "And I wait on element \"#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img\" for 5000ms to be displayed",
+  "time" : {
+    "start" : 1617194254170,
+    "stop" : 1617194254208,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a2cbf95d73e6515",
+  "name" : "When I click on the element \"#cgv\"",
+  "time" : {
+    "start" : 1617194267501,
+    "stop" : 1617194267693,
+    "duration" : 192
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9026f6b67e425848",
+  "name" : "And I set \"Bangalore\" to the inputfield \"#city\"",
+  "time" : {
+    "start" : 1617194246379,
+    "stop" : 1617194246568,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50fba67cbe7f8c0",
+  "name" : "Then I expect that element \"#header > div.nav > div > div > nav > div:nth-child(1) > a > span\" contains the text \"Ajith Kumar\"",
+  "time" : {
+    "start" : 1617194250260,
+    "stop" : 1617194250332,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24bdf79b000bbc56",
+  "name" : "Then I expect that element \"#account-creation_form > div:nth-child(1) > h3\" contains the text \"YOUR PERSONAL INFORMATION\"",
+  "time" : {
+    "start" : 1617194244473,
+    "stop" : 1617194244573,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ad5caaceeecf6f5",
+  "name" : "Then I expect that element \"#product_1_1_0_472848 > td.cart_description > p > a\" contains the text \"Faded Short Sleeve T-shirts\"",
+  "time" : {
+    "start" : 1617194267694,
+    "stop" : 1617194267695,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "dca340104701b935",
+  "name" : "And I set \"Kumar\" to the inputfield \"#customer_lastname\"",
+  "time" : {
+    "start" : 1617194244975,
+    "stop" : 1617194245160,
+    "duration" : 185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52432423ce785146",
+  "name" : "Then I expect that element \"#order_step > li.step_current.first > span\" contains the text \" Summary\"",
+  "time" : {
+    "start" : 1617194267695,
+    "stop" : 1617194267695,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ff5fa14b85e5a9d4",
+  "name" : "Then I expect that element \"[class*='cart_description'] a\" contains the text \"Faded Short Sleeve T-shirts\"",
+  "time" : {
+    "start" : 1617194261772,
+    "stop" : 1617194261833,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5240c9c0eaaf847",
+  "name" : "And I select the 3rd option for element \"#years\"",
+  "time" : {
+    "start" : 1617194245581,
+    "stop" : 1617194245669,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6de45fbe161680c5",
+  "name" : "And I select the 1st option for element \"#months\"",
+  "time" : {
+    "start" : 1617194245483,
+    "stop" : 1617194245580,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd4a062174030273",
+  "name" : "Then I expect that element \"#total_price\" contains the text \"$18.51\"",
+  "time" : {
+    "start" : 1617194267695,
+    "stop" : 1617194267696,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "51bbaf8996deeb71",
+  "name" : "Then I expect that element \"#address_delivery > li.address_title > h3\" contains the text \"YOUR DELIVERY ADDRESS\"",
+  "time" : {
+    "start" : 1617194264090,
+    "stop" : 1617194264163,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5439e40c6930cf7",
+  "name" : "And I set \"ajihmt3@gmail.com\" to the inputfield \"#email_create\"",
+  "time" : {
+    "start" : 1617194241730,
+    "stop" : 1617194242072,
+    "duration" : 342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7e1d5610ec57392",
+  "name" : "When I click on the button \"#layer_cart > div.clearfix  div.button-container > a\"",
+  "time" : {
+    "start" : 1617194258623,
+    "stop" : 1617194261698,
+    "duration" : 3075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e50d870a0efe1550",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1617194267696,
+    "stop" : 1617194267698,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7d4d30501f215e8",
+  "name" : "Then I expect that element \"#noSlide > h1\" contains the text \"CREATE AN ACCOUNT\"",
+  "time" : {
+    "start" : 1617194244358,
+    "stop" : 1617194244473,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99113d6527c52e56",
+  "name" : "And I set \"abcde12\" to the inputfield \"#passwd\"",
+  "time" : {
+    "start" : 1617194245160,
+    "stop" : 1617194245370,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "911d869c1f9f63bc",
+  "name" : "And I select the 1st option for element \"#id_country\"",
+  "time" : {
+    "start" : 1617194246817,
+    "stop" : 1617194246897,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4071213d0f2b6e7",
+  "name" : "And I set \"45564\" to the inputfield \"#postcode\"",
+  "time" : {
+    "start" : 1617194246659,
+    "stop" : 1617194246817,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4873b250879f0e5",
+  "name" : "When I click on the button \"#center_column > p.cart_navigation.clearfix > .button-medium\"",
+  "time" : {
+    "start" : 1617194261833,
+    "stop" : 1617194264090,
+    "duration" : 2257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2266f0694b89f500",
+  "name" : "When I click on the element \"a.login\"",
+  "time" : {
+    "start" : 1617194238224,
+    "stop" : 1617194241730,
+    "duration" : 3506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d4d6bde175f7e9b",
+  "name" : "When I click on the button \"#form > p > button > span\"",
+  "time" : {
+    "start" : 1617194267166,
+    "stop" : 1617194267404,
+    "duration" : 238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a48a5291a09b93c",
+  "name" : "Then I expect that element \"//h1[@itemprop='name']\" contains the text \"Faded Short Sleeve T-shirts\"",
+  "time" : {
+    "start" : 1617194258460,
+    "stop" : 1617194258558,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8afefec69c52b6d7",
+  "name" : "And I click on the button \"#submitAccount\"",
+  "time" : {
+    "start" : 1617194247672,
+    "stop" : 1617194250095,
+    "duration" : 2423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "624cf3630945acf",
+  "name" : "And I set \"#123,1st Main\" to the inputfield \"#address1\"",
+  "time" : {
+    "start" : 1617194245906,
+    "stop" : 1617194246122,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21d48e4ec87fbfc9",
+  "name" : "When I click on the button \"#center_column > form > p > button > span\"",
+  "time" : {
+    "start" : 1617194264163,
+    "stop" : 1617194267087,
+    "duration" : 2924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,56 @@
+{
+  "uid" : "19d189b8e4460b55",
+  "name" : "Then I expect that element \"#product_1_1_0_472848 > td.cart_description > p > a\" contains the text \"Faded Short Sleeve T-shirts\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.Then I expect that element \"#product_1_1_0_472848 > td.cart_description > p > a\" contains the text \"Faded Short Sleeve T-shirts\"",
+  "historyId" : "283f0280b49217e5d345b354dc6691a4",
+  "time" : {
+    "start" : 1617193921234,
+    "stop" : 1617193921234,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that element \"#product_1_1_0_472848 > td.cart_description > p > a\" contains the text \"Faded Short Sleeve T-shirts\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19d189b8e4460b55.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

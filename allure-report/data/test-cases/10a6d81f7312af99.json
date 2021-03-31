@@ -1,0 +1,56 @@
+{
+  "uid" : "10a6d81f7312af99",
+  "name" : "And I set \"Ajith\" to the inputfield \"#customer_firstname\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I set \"Ajith\" to the inputfield \"#customer_firstname\"",
+  "historyId" : "84f89e9dc15d3b21935f920c2394581b",
+  "time" : {
+    "start" : 1617193921211,
+    "stop" : 1617193921211,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I set \"Ajith\" to the inputfield \"#customer_firstname\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10a6d81f7312af99.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

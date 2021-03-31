@@ -1,0 +1,66 @@
+{
+  "uid" : "ac313d749b7b1556",
+  "name" : "And I expect that element \"#add_to_cart\" contains the text \"Add to cart\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I expect that element \"#add_to_cart\" contains the text \"Add to cart\"",
+  "historyId" : "2954259858815933a95a295f9bf4292b",
+  "time" : {
+    "start" : 1617194258558,
+    "stop" : 1617194258622,
+    "duration" : 64
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I expect that element \"#add_to_cart\" contains the text \"Add to cart\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3d943765ffd4c55b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921227,
+        "stop" : 1617193921228,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac313d749b7b1556.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

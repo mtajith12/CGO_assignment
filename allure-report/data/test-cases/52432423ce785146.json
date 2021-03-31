@@ -1,0 +1,82 @@
+{
+  "uid" : "52432423ce785146",
+  "name" : "Then I expect that element \"#order_step > li.step_current.first > span\" contains the text \" Summary\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.Then I expect that element \"#order_step > li.step_current.first > span\" contains the text \" Summary\"",
+  "historyId" : "e0dd6c7a5e68ab93b51faf93c826738a",
+  "time" : {
+    "start" : 1617194267695,
+    "stop" : 1617194267695,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that element \"#order_step > li.step_current.first > span\" contains the text \" Summary\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb8a661c0942d647",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617194261698,
+        "stop" : 1617194261772,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "cbb5154b2e03a46a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921234,
+        "stop" : 1617193921234,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6e7686f729cf8139",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921228,
+        "stop" : 1617193921229,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52432423ce785146.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

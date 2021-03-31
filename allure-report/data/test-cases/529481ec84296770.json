@@ -1,0 +1,58 @@
+{
+  "uid" : "529481ec84296770",
+  "name" : "And I wait on element \"#account-creation_form\" for 5000ms to be displayed",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I wait on element \"#account-creation_form\" for 5000ms to be displayed",
+  "historyId" : "470bdb81bef984b4272e84aadec728fb",
+  "time" : {
+    "start" : 1617193901067,
+    "stop" : 1617193921205,
+    "duration" : 20138
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#account-creation_form\") still not displayed after 5000ms",
+  "statusTrace" : "Error: element (\"#account-creation_form\") still not displayed after 5000ms\n                    at C:\\CGO_assignment\\CGO_assignment\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:30:15\n                    at Element.runCommandWithHooks (C:\\CGO_assignment\\CGO_assignment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:54:21)\n                    at Element.runCommandWithHooks (C:\\CGO_assignment\\CGO_assignment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:48:22)\n                    at Element.wrapCommandFn (C:\\CGO_assignment\\CGO_assignment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:25:40)\n                    at Element.elementErrorHandlerCallbackFn (C:\\CGO_assignment\\CGO_assignment\\node_modules\\webdriverio\\build\\middlewares.js:21:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.elementErrorHandlerCallback (C:\\CGO_assignment\\CGO_assignment\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Element.waitForDisplayed (C:\\CGO_assignment\\CGO_assignment\\node_modules\\webdriverio\\build\\commands\\element\\waitForDisplayed.js:15:15)\n                    at Element.wrapCommandFn (C:\\CGO_assignment\\CGO_assignment\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:20:17)\n                    at _default (C:\\CGO_assignment\\CGO_assignment\\src\\support\\action/waitFor.js:49:5)\n                    at C:\\CGO_assignment\\CGO_assignment\\node_modules\\@wdio\\sync\\build\\runFnInFiberContext.js:16:27",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I wait on element \"#account-creation_form\" for 5000ms to be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "529481ec84296770.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

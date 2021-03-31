@@ -1,0 +1,66 @@
+{
+  "uid" : "4c4f051de489b19d",
+  "name" : "And I click on the element \"#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I click on the element \"#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img\"",
+  "historyId" : "1065176c9477e0d2dfef2e5838081a1b",
+  "time" : {
+    "start" : 1617194254208,
+    "stop" : 1617194257141,
+    "duration" : 2933
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I click on the element \"#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link > img\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ee4845156fd37659",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921226,
+        "stop" : 1617193921226,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c4f051de489b19d.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

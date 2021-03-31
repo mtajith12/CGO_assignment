@@ -22,9 +22,9 @@ exports.config = {
     // launches several test sessions. Within your capabilities you can
     // overwrite the spec and exclude options in order to group specific specs
     // to a specific capability.
- 
+
     //
-    maxInstances: 1,
+    maxInstances: 10,
     //
     // If you have trouble getting all important capabilities together, check
     // out the Sauce Labs platform configurator - a great tool to configure your
@@ -73,10 +73,13 @@ exports.config = {
     outputDir: path.join(__dirname, 'logs'),
 
     framework: 'cucumber',
-
-    reporters: ['spec'],
-
-    //
+    reporters: [
+        ['allure', {
+        // test results will generate in the directory mentioned below
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: false,
+        }]],
     // If you are using Cucumber you need to specify the location of your step
     // definitions.
     cucumberOpts: {
@@ -85,7 +88,7 @@ exports.config = {
         // <string[]> module used for processing required features
         requireModule: ['@babel/register'],
         // <boolean< Treat ambiguous definitions as errors
-        failAmbiguousDefinitions: true,
+        failAmbiguousDefinitions: false,
         // <boolean> invoke formatters without executing steps
         // dryRun: false,
         // <boolean> abort the run on first failure
@@ -109,7 +112,7 @@ exports.config = {
             './src/steps/when.js',
             // Or search a (sub)folder for JS files with a wildcard
             // works since version 1.1 of the wdio-cucumber-framework
-            // './src/**/*.js',
+           //  './src/**/*.js',
         ],
         // <string> specify a custom snippet syntax
         snippetSyntax: undefined,
@@ -138,5 +141,17 @@ exports.config = {
         global.assert = chai.assert;
         global.should = chai.should();
     },
-
+    beforeSuite: function (suite) {
+        global.allure = allure;
+               allure.addFeature(suite.name);
+               allure.addDescription("generating Allure reports " + suite.name);
+           },
+           beforeTest: function (test, context) {
+               allure.addEnvironment("BROWSER", browser.capabilities.browserName);
+               allure.addEnvironment("BROWSER_VERSION", browser.capabilities.version);
+               allure.addEnvironment("PLATFORM", browser.capabilities.platform);
+               allure.addDescription("generating Allure reports" + test.title);
+               allure.addTestId("TC-001" + test.title);
+               allure.addLabel("label" + + today.toISOString().replace(/[^\w]/g, "") + ".png");
+           },
 };

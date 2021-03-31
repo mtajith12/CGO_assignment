@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "4fcbb5ae9c014874a0c45d1aa51893d1",
+    "name" : "Register and Checkout product: Register and checkout product",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 4,
+      "passed" : 45,
+      "unknown" : 0,
+      "total" : 50
+    }
+  } ]
+}

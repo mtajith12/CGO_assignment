@@ -1,0 +1,66 @@
+{
+  "uid" : "dee31a4c599542b4",
+  "name" : "And I set \"Near KB busstop\" to the inputfield \"#other\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.And I set \"Near KB busstop\" to the inputfield \"#other\"",
+  "historyId" : "182da6479d0597b3b771f4ac11c42c71",
+  "time" : {
+    "start" : 1617194246897,
+    "stop" : 1617194247063,
+    "duration" : 166
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I set \"Near KB busstop\" to the inputfield \"#other\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fccd393633211473",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921221,
+        "stop" : 1617193921222,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dee31a4c599542b4.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

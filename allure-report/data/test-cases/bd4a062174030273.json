@@ -1,0 +1,66 @@
+{
+  "uid" : "bd4a062174030273",
+  "name" : "Then I expect that element \"#total_price\" contains the text \"$18.51\"",
+  "fullName" : "Register and Checkout product: Register and checkout product.Then I expect that element \"#total_price\" contains the text \"$18.51\"",
+  "historyId" : "874a4f20bcc63bbea3fbbf3cae69e1a2",
+  "time" : {
+    "start" : 1617194267695,
+    "stop" : 1617194267696,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testClass",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that element \"#total_price\" contains the text \"$18.51\""
+  }, {
+    "name" : "package",
+    "value" : "Register and Checkout product: Register and checkout product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b7b3ba3fcfc5da8c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617193921235,
+        "stop" : 1617193921235,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd4a062174030273.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}
